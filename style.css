@@ -149,3 +149,97 @@ section.about-section {
 .counter-up p {
     font-size: 16px;
 }
+section.pricing-table {
+    display: flex;
+    padding: 100px 0px;
+}
+.pricing-food-range {
+    width: 26%;
+    margin-left: 6%;
+    text-align: center;
+    border: 2px solid #F3F4F4;
+    padding: 20px 0px;
+}
+.top-pricing-shedule h3 {
+    font-size: 25px;
+    color: #202020;
+}
+.top-pricing-shedule h1 {
+    font-size: 50px;
+    color: #202020;
+    font-weight: 700;
+}
+.top-pricing-shedule p {
+    width: 300px;
+    margin: 0 auto;
+    color: #ABAFB8;
+    margin-bottom: 35px;
+}
+.pricing-list ul {
+    line-height: 47px;
+    color: #ABAFB8;
+    font-size: 18px;
+    list-style: none;
+}
+.add-cart-btn {
+    background: #F3F4F4;
+    margin-top: 40px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.add-cart-btn a {
+    color: #E70404;
+    display: block;
+    padding: 16px 0px;
+}
+.top-pricing-shedule h1:hover{
+    color: #E70404;
+    transition: .3s;
+}
+.add-cart-btn a:hover{
+    background:#E70404;
+    color:#ffffff;
+    transition: .5s;
+}
+section.team-section {
+    padding: 70px 0px;
+    display: flex;
+}
+.team-leader-view {
+    width: 25%;
+    margin-left: 6%;
+}
+.team-leader-view img {
+    width: 100%;
+}
+.team-leader-view p {
+    font-size: 18px;
+    margin-top: 12px;
+}
+.team-leader-view h3 {
+    font-size: 22px;
+}
+.footer-section {
+    background: #0B0D17;
+    padding: 40px 0px 70px 0px;
+}
+.footer-section h2 {
+    text-align: center;
+}
+span#fooding-wrapper {
+    color: #FC8545;
+    font-size: 30px;
+    margin-right: 6px;
+}
+span#network-live {
+    color: #47484A;
+    font-size: 30px;
+    margin-left: 6px;
+}
+.footer-section p {
+    color: #ffffff;
+    text-align: center;
+    font-size: 17px;
+    margin-top: 35px;
+}
+
