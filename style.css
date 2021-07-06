@@ -11,7 +11,8 @@ body{
 a{
     text-decoration: none;
 }
-.heathy-top-banner{
+/*healthy-top-banner start*/
+.healthy-top-banner{
     display: flex;
     padding: 70px 0px;
 }
@@ -38,9 +39,8 @@ a{
     color: #FB964B;
 }
 .food-slice h1 {
-    font-size: 60px;
+    font-size: 62px;
     font-weight: 700;
-    letter-spacing: 1px;
     color: #575757;
 }
 .order-btn{
@@ -51,7 +51,9 @@ a{
     font-size: 20px;
     border-radius: 30px;
 }
-section.about-section {
+/*healthy-top-banner end*/
+/*about-section start*/
+.about-section {
     display: flex;
     background: url(images/7.png);
     background-repeat: no-repeat;
@@ -82,6 +84,8 @@ section.about-section {
     margin-bottom: 100px;
     max-width: 500px;
 }
+/*about-section end*/
+/*recipe-section start*/
 .recipe-section {
     padding: 100px 0px;
 }
@@ -129,6 +133,8 @@ section.about-section {
     line-height: 30px;
     margin-top: 20px;
 }
+/*recipe-section end*/
+/*counter section start*/
 .counter-section {
     display: flex;
     box-shadow: 2px 5px 20px 1px #aaaaaa;
@@ -149,7 +155,9 @@ section.about-section {
 .counter-up p {
     font-size: 16px;
 }
-section.pricing-table {
+/*counter section end*/
+/*pricing-table section start*/
+.pricing-table {
     display: flex;
     padding: 100px 0px;
 }
@@ -201,8 +209,18 @@ section.pricing-table {
     color:#ffffff;
     transition: .5s;
 }
-section.team-section {
+/*pricing-table section end*/
+/*topper-team-community section start*/
+.topper-team-community {
     padding: 70px 0px;
+}
+.concurrency h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.team-section {
     display: flex;
 }
 .team-leader-view {
@@ -219,6 +237,8 @@ section.team-section {
 .team-leader-view h3 {
     font-size: 22px;
 }
+/*topper-team-community section end*/
+/*footer section start*/
 .footer-section {
     background: #0B0D17;
     padding: 40px 0px 70px 0px;
@@ -242,4 +262,4 @@ span#network-live {
     font-size: 17px;
     margin-top: 35px;
 }
-
+/*footer section end*/
